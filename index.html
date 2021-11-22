@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Dating Profile</h1>
+    
+        <p>To provide you with a match, we need to know a little about you:</p>
+    
+        <form id="insurance">
+            <label for="firstname"><strong>Firstname</strong></label> <br>
+            <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="" autofocus class="form-control" required><br>
+            <label for="middlename"><strong>Middle Name</strong></label> <br>
+            <input type="text" name="middlename" id="middlename" placeholder="Write your Middle name" value="" autofocus class="form-control" required ><br>
+            <label for="Lastname"><strong>Lastname</strong></label> <br>
+            <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="" class="form-control" required><br>
+            <label for="Nickname"><strong>Nickname</strong></label> <br>
+            <input type="text" name="Nickname" id="nickname" placeholder="Write your Nickname" value="" class="form-control"><br>
+    
+<legend>Age</legend>
+          
+          <input type="number" id="age" required><br><br>
+          <legend>Gender</legend>
+          
+          <select id="gender" required>
+            <option value=""></option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select><br><br>
+<legend>Class of Choice</legend>
+    <select id="ageBracket" required>
+        <option value=""></option>
+        <option value="young" id="young">Young</option>
+        <option value="matured" id="matured">Matured</option>
+
+    </select><br><br>
+    
+    <button type="submit" class="btn">Find my Match</button>
+</form>
+<div id="result">
+<div id="youngFem">
+    <img src="images/regina daniels.jpg">
+
+    <p>This is your match</p>
+  </div>
+
+  <div id="maturedFem">
+    <img src="images/kate henshaw.jpg">
+
+    <p>This is your match</p>
+  </div> 
+  <div id="youngMale">
+    <img src="images/wizkid.jpg">
+    <p>This is your match</p>
+  </div>
+  <div id="maturedMale">
+    <img src="images/davido.jpg">
+
+    <p>This is your match</p>
+  </div>
+</div>
+</div>
+</body>
+</html>

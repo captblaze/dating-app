@@ -1,0 +1,19 @@
+body{
+    background-color: orangered;
+
+}
+h1{
+    text-align: center;
+    color: salmon;
+    font-style: italic;
+    font-family: fantasy;
+}
+p{
+    color: rgb(9, 221, 37);
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+}
+#youngFem, #maturedFem, #youngMale, #maturedMale {
+    display: none;
+  }
