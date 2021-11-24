@@ -1,7 +1,6 @@
 # SITE NAME #
 ## DATING aPP ##
 # NAME OF CONTRIBUTOR #
-## DURODOLA ADEOLA ##
 ## MGBANWUNE ONYEKACHI STANLEY  ##
 # BRIEF DESCRIPTION OF SITE #
 ### This is a DATING site which is made for getting a match for a date generated from the user's input on Gender and Choice of partners.
@@ -21,6 +20,5 @@
 # contact #
 * MGBANWUNE ONYEKACHI STANLEY
 * 08038412260
-* DURODOLA ADEOLA
-* 08032847264
+
 
